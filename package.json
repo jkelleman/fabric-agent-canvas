@@ -1,0 +1,39 @@
+{
+  "name": "fabric-agent-canvas",
+  "version": "0.1.0",
+  "description": "React/TypeScript components modeling the handoff between developer terminals and cloud lakehouse agents: state indicators, guardrail review cards, and diff drawers.",
+  "author": "Jen Kelleman",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist"],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepare": "npm run build",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "peerDependencies": {
+    "lucide-react": ">=0.400.0",
+    "react": ">=19"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "lucide-react": "^1.66.0",
+    "react": "^19",
+    "typescript": "^5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkelleman/fabric-agent-canvas.git"
+  },
+  "homepage": "https://aiwithjen.com/work/project-osmos#canvas-mockup",
+  "keywords": ["react", "agentic-ai", "human-in-the-loop", "microsoft-fabric", "lakehouse", "design-system"]
+}
