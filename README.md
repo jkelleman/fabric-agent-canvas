@@ -3,6 +3,10 @@
 # fabric-agent-canvas
 
 [![CI](https://github.com/jkelleman/fabric-agent-canvas/actions/workflows/ci.yml/badge.svg)](https://github.com/jkelleman/fabric-agent-canvas/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![React 19](https://img.shields.io/badge/React-19-61DAFB.svg?logo=react&logoColor=white)](https://react.dev)
+[![TypeScript 5](https://img.shields.io/badge/TypeScript-5-3178C6.svg?logo=typescript&logoColor=white)](tsconfig.json)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-v4-38BDF8.svg?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 
 React 19 + TypeScript components for **human-in-the-loop agent interfaces**: the
 moment a developer hands a long-running task from a local terminal to a cloud
