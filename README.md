@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.png" alt="See, approve and audit a remote agent: React components showing an autonomy state rail and a guardrail card holding a destructive action for approval."></p>
+
 # fabric-agent-canvas
 
 [![CI](https://github.com/jkelleman/fabric-agent-canvas/actions/workflows/ci.yml/badge.svg)](https://github.com/jkelleman/fabric-agent-canvas/actions/workflows/ci.yml)
